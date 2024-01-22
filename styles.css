@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+        /* header starts here  */
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    align-items: center;
+}
+
+.header .brand{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style: none;
+}
+
+.links{
+    flex-grow: 0.30;
+}
+
+ul li a{
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+        /* header ends */
+
+
+        /* hero starts */
+.hero{
+    height: 65vh;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.text-container{
+    margin-left: 160px;
+    width: 41.5%;
+    text-wrap: wrap;
+}
+
+.text-container h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+    width: 54%;
+}
+
+.img-container{
+    height: 250px;
+    width: 500px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+
+}
+
+.text-container p{
+    width: 70%;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.text-container button{
+    background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Hero ends */
+
+
+/* Information section  */
+.information-section{
+    background-color: #F9FAF8;
+    height: 48vh;  
+    padding-bottom: 50px;
+}
+
+.information-section h3{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 800;
+}
+
+.infobox-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.info-box{
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3b82f6ff;
+    border-radius: 10px;
+}
+
+.infobox-textcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.infobox-textcontainer p{
+    width: 150px;
+    padding: 6px 1px;
+    color: grey;
+    text-align: center;
+}
+
+/* information section ends */
+
+
+/* quotes section */
+
+.quotes-section{
+    height: 48vh;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quotes-section .random-text,.text-credit{
+    width: 45%;
+    font-size: 29px;
+    font-weight: light;
+    font-style: italic;
+    color: #414f62;
+}
+
+.quotes-section .text-credit{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 19px;
+    font-weight: 700;
+    font-style: normal;
+    color: #1f2937;
+}
+
+/* quotes section ends */
+
+
+/* sign-up section */
+
+.signup-section{
+    height: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.signup-section .bg-blue{
+    background-color: #3882f6;
+    height: 45%; 
+    width: 65%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+
+.signup-section .bg-blue .left h4{
+    font-size: 22px;
+}
+
+.signup-section .bg-blue .left p{
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+.signup-section .bg-blue .right button{
+    background-color: #3882f6;
+    height: 30px;
+    width: 120px;
+    color: white;
+    border-radius: 8px;
+    border: 3px solid white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* signup section ends */
+
+
+/* footer */
+
+.footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
